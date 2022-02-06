@@ -1,0 +1,33 @@
+
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 30rem;
+    height: 25rem;
+}
+table,th,td{
+    border: 1px solid  #c4dcf3;
+    border-left: 0;
+    border-right: 0;
+    border-collapse: collapse;
+    
+}
+td,th {
+    padding: 10px;
+}
+
+th {
+    background-color:#427fef ;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color:  #eef7ff;
+}
+tfoot{
+    text-align: left;
+}
