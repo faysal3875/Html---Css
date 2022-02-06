@@ -1,0 +1,14 @@
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    background-color: tomato;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
